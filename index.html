@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soulfish</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/carousel.css" />
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;600;700&family=Montserrat:wght@300;500;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">    <title>Elsässer</title>
+</head>
+<body>
+    <header class="header">
+        <section class="header-contacts">
+            <div class="container">
+                <div class="row justify-content-start mb-0">
+                    <div class="col-6">
+                        <div class="d-md-inline header-contacts_address">
+                            <img src="img/location-icon.png" alt="location-icon" class="header-contacts_icon">
+                            <span class="col-6 header-contacts_text">Івана Акінфєєва, 12б</span>
+                        </div>
+    
+    
+                        <div class="d-md-inline header-contacts_number">
+                            <img src="img/phone-icon.png" alt="location-icon" class="header-contacts_icon">
+                            <span class="col-6 header-contacts_text">+38 (067) 485 1000</span>
+                        </div>
+                    </div>
+
+                    <div class="col-6 d-sm-flex justify-content-end align-items-center">
+                        <div class="language-switcher d-md-inline">
+                            <span>UA</span>
+                            <button class="language-switcher_button"><img src="img/arrow-down.png" alt="arrow-down" class="language-switcher_icon"></button>
+                        </div>
+                        <div class="socials d-md-inline">
+                            <a href="#"><img src="img/fb-icon.png" alt="fb-icon" class="socials_icon m-0"></a>
+                            <a href="#"><img src="img/tw-icon.png" alt="tw-icon" class="socials_icon"></a>
+                            <a href="#"><img src="img/ig-icon.png" alt="ig-icon" class="socials_icon"></a>
+                            <a href="#"><img src="img/g-icon.png" alt="g-icon" class="socials_icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="header-main">
+            <div class="container">
+                <div class="row justify-content-between align-items-center mb-0">
+                    <div class="col-md-2 col-4">
+                        <div class="logo">
+                            <img src="img/Logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-2 order-2 order-md-1">
+                        <div id="toggle" class="d-md-none d-block">
+                            <div class="one"></div>
+                            <div class="two"></div>
+                            <div class="three"></div>
+                        </div>
+                            
+                        <div class="menu">
+                            <ul class="menu__list d-md-flex d-inline justify-content-center">
+                                <li class="menu__list_item"><a href="#">Галерея</a></li>
+                                <li class="menu__list_item"><a href="#">Інтер'єр</a></li>
+                                <li class="menu__list_item menu__list_item--active"><a href="#">Події</a></li>
+                                <li class="menu__list_item"><a href="#">Контакти</a></li>
+                            </ul>
+                        </div>  
+                    </div>
+                    <div class="col-md-3 col-6 d-flex justify-content-end order-1 order-md-2">
+                        <button class="button button-gold button_delivery">Доставка онлайн</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- /.header -->
+
+    <section class="main-section">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-12">
+                    <div class="event-heading">
+                        <p class="event-heading_date m-0">30.09.2021, 20:00</p>
+                        <p class="event-heading_name ">Назва події</h1>
+                    </div>
+                    <div class="event-text">
+                        <h1 class="d-inline-block event-text_title m-0">H1 заголовок першого рівня</h1>
+                        <p>rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Bibendum enim facilisis gravida neque convallis a cras semper. </p>
+                        <p>Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Non nisi est sit amet facilisis magna etiam tempor. Cras tincidunt lobortis feugiat vivamus at. Nunc aliquet bibendum enim facilisis gravida neque convallis. Et pharetra pharetra massa massa ultricies mi quis. </p>
+                        <p>Commodo quis imperdiet massa tincidunt. In tellus integer feugiat scelerisque. Eget egestas purus vive rra accumsan in. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Varius sit amet mattis vulputate enim nulla aliquet. Ut tristique et egestas quis ipsum suspendisse ultrices gravida.</p>
+                    </div>
+
+                    <div class="d-flex justify-content-center align-items-center">
+                        
+                        <div class="carousel" id="event-carousel">
+                            <a class="carousel-item" href="#one!"><img src="img/slider-image.png" alt="slider-image"></a>
+                            <a class="carousel-item" href="#two!"><img src="img/slider-image.png" alt="slider-image"></a>
+                            <a class="carousel-item" href="#three!"><img src="img/slider-image.png" alt="slider-image"></a>
+                            <a class="carousel-item" href="#four!"><img src="img/slider-image.png" alt="slider-image"></a>
+                            <a class="carousel-item" href="#five!"><img src="img/slider-image.png" alt="slider-image"></a>
+                        </div>
+
+                        <div class="d-flex carousel-arrows">
+                            <div class="carousel-prev"></div>
+                            <div class="carousel-next"></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="event-text">
+                        <h2 class="d-inline-block event-text_title m-0">H2 заголовок другого рівня</h2>
+                        <p> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet commo do nulla facilisi. Bibendum enim facilisis gravida neque convallis a cras semper. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit.</p>
+                    </div>
+                    <div class="event-text">
+                        <h3 class="d-inline-block event-text_title m-0">H3 заголовок третього рівня</h3>
+                        <p> ictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Non nisi est sit amet facilisis magna etiam tempor. Cras tincidunt lobortis feugiat vivamus at. Nunc aliquet bibendum enim facilisis gravida neque convallis. Et pharetra pharetra massa massa ultricies mi quis. </p>
+                        <p>Commodo quis imperdiet massa tincidunt. In tellus integer feugiat scelerisque. Eget egestas purus vive rra accumsan in. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Varius sit amet mattis vulputate enim nulla aliquet. Ut tristique et egestas quis ipsum suspendisse ultrices gravida.</p>
+                    </div>
+
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div >
+                        <ul class="event-list event-list--first">
+                            <li class="event-list_item">Varius sit amet mattis vulputate</li>
+                            <li class="event-list_item">Ut tristique et egestas quis ipsum</li>
+                            <li class="event-list_item">Venim nulla aliquett tristique et</li>
+                            <li class="event-list_item">Egestas quis ipsum suspendisse ultrice</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div >
+                        <ol class="event-list event-list--second p-0">
+                            <li class="event-list_item">Varius sit amet mattis vulputate</li>
+                            <li class="event-list_item">Ut tristique et egestas quis ipsum</li>
+                            <li class="event-list_item">Venim nulla aliquett tristique et</li>
+                            <li class="event-list_item">Egestas quis ipsum suspendisse ultrice</li>
+                        </ol>
+                    </div>
+                </div>
+            
+
+            
+                <div class="col-12 share">
+                    <h4 class="share-text d-inline">Поділитися через</h4>
+                    <div class="share-icons d-sm-inline mt-sm-0 mt-3">
+                        <a href="#"><img class="share-icon" src="img/fb-icon-blue.png" alt="fb-icon-blue"></a>
+                        <a href="#"><img class="share-icon" src="img/tw-icon-blue.png" alt="tw-icon-blue"></a>
+                        <a href="#"><img class="share-icon" src="img/ig-icon-blue.png" alt="ig-icon-blue"></a>
+                        <a href="#"><img class="share-icon" src="img/g-icon-blue.png" alt="g-icon-blue"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.main-section -->
+
+
+    <section class="photo-gallery">
+        <div class="container">
+            
+            <div class="photo-gallery_container">
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img1.png" alt="gallery-img1"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img2.png" alt="gallery-img2"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img3.png" alt="gallery-img3"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img4.png" alt="gallery-img4"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img5.png" alt="gallery-img5"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img6.png" alt="gallery-img6"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img7.png" alt="gallery-img7"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img8.png" alt="gallery-img8"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img9.png" alt="gallery-img9"/></div>
+                <div class="photo-gallery_tile"><img class="photo-gallery_photo" src="img/gallery-img10.png" alt="gallery-img10"/></div>
+            </div>
+
+            <button type="button" class="button button-blue button_more d-block">Доставка онлайн</button>
+           
+        </div>
+
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-chat">
+                <a href="#"><img src="img/Chat.png" alt="Chat"></a>
+            </div>
+            <div class="container">
+                <div class="row mb-0">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="menu footer-menu ">
+                            <ul class="menu__list d-flex m-0">
+                                <li class="menu__list_item"><a href="#">Галерея</a></li>
+                                <li class="menu__list_item"><a href="#">Інтер'єр</a></li>
+                                <li class="menu__list_item"><a href="#">Події</a></li>
+                                <li class="menu__list_item"><a href="#">Контакти</a></li>
+                            </ul>
+                        </div>  
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="footer-socials d-inline">
+                            <a href="#"><img src="img/fb-icon.png" alt="fb-icon" class="footer-socials_icon m-0"></a>
+                            <a href="#"><img src="img/tw-icon.png" alt="tw-icon" class="footer-socials_icon"></a>
+                            <a href="#"><img src="img/ig-icon.png" alt="ig-icon" class="footer-socials_icon"></a>
+                            <a href="#"><img src="img/g-icon.png" alt="g-icon" class="footer-socials_icon"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 d-sm-flex justify-content-center footer-contacts d-block">
+                        <div class="d-md-inline footer-contacts_address">
+                            <img src="img/location-icon.png" alt="location-icon" class="header-contacts_icon">
+                            <span class="col-6 header-contacts_text">Івана Акінфєєва, 12б</span>
+                        </div>
+    
+                        <div class="d-md-inline footer-contacts_number">
+                            <img src="img/phone-icon.png" alt="location-icon" class="header-contacts_icon">
+                            <span class="col-6 header-contacts_text">+38 (067) 485 1000</span>
+                        </div>
+
+                        <div class="d-md-inline footer-contacts_schedule">
+                            <img src="img/time-icon.png" alt="time-icon" class="header-contacts_icon">
+                            <span class="col-6 header-contacts_text">Режим роботи: з 10.00 до 22.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center  mb-0">
+                    <div class="col-sm-6 col-4">
+                        <p class="copyright">Copyright</p>
+                    </div>
+                    <div class="col-sm-6 col-8 d-flex justify-content-end">
+                        <div class="footer-bottom_cards">
+                            <img class="footer-bottom_card" src="img/card-img1.png" alt="card-img1">
+                            <img class="footer-bottom_card" src="img/card-img2.png" alt="card-img2">
+                            <img class="footer-bottom_card" src="img/card-img3.png" alt="card-img3">
+                            <img class="footer-bottom_card" src="img/card-img4.png" alt="card-img4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="js/jquery-3.5.1.js" type="text/javascript"></script>
+    <script src="js/carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
